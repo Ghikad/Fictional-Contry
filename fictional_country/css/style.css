@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Garamond:wght@300&family=Poppins:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+/*-----------------------------------Navigation-------------------------------------*/
+
+header{
+    width: 100%;
+    height: 90vh;
+    background: url('../images/overlay.png'), url('../images/banner2.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Alice', serif;
+}
+header .navbar-brand{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+header ul{
+    margin-left: auto;
+    padding-bottom: 0;
+}
+header li{
+    margin: 10px;
+    font-size: large;
+}
+header a{
+    color: #fff;
+}
+header ul li a:hover{
+    color: #fff;
+    border-bottom: 1px solid green;
+}
+header .navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+    border: 1px solid white;
+    background-color: #fff;
+}
+/*----------------------------------First column--------------------------------------*/
+.container .first{
+    color: #fff;
+    margin-top: 35%;
+    transform: translateY(-35%);
+}
+.container .first h1{
+    font-size: 32px;
+
+}
+.container .first p{
+    font-size: 12px;
+}
+/*--------------------------------------Cards----------------------------------------*/
+
+.container .second{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+.container .second  .card{
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.card1{
+    background: url('../images/1.jpg');
+    color: #fff;
+}
+.card2{
+    background: url('../images/2.jpg');
+}
+.card3{
+    background: url('../images/3.jpg');
+}
+.card4{
+    background: url('../images/4.jpg');
+}
+.container .second  .card:hover{
+    transform: translateY(-8px);
+}
+.container .second  .card p{
+    font-size: 10px;
+}
+
+/*section.main*/
+.font{
+    font-size: 23px;
+}
+
+/*---------------------------------Footer----------------------------------*/
+
+footer{
+    padding: 50px 50px;
+    color: #aaa;
+}
+footer h4{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+footer li{
+    margin:  5px 5px;
+}
+footer a{
+    color: #aaa;
+    text-decoration:none;
+}
+
+.social-links{
+    display: flex;
+}
+
+.social-links a{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 10px;
+    border-radius: 20%;
+    transition: transform 0.3s;
+}
+
+.social-links .fab{
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.social-links a:hover{
+    transform: translateY(-10%);
+}
+
+
+/*--------------------------------------Page cities------------------------------*/
+
+
+/*----------------------------------Utilities---------------------------------------------*/
+.explore{
+    width: 200px;
+    border-radius: 40px;
+}
+
+.main-title{
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.main-title:hover{
+    color: #fff;
+}
